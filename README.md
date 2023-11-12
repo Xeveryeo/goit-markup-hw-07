@@ -1,1 +1,1 @@
-# continuation of html-mark-up-hw-05 with forms.
+# continuation of html-mark-up-hw-06 with responsive layout
