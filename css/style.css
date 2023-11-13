@@ -781,34 +781,6 @@ div.section-web ul.images {
                 padding-left: 5px;
                 padding-right: 5px;
         }
-
-        .web {
-                margin-left: auto;
-        }
-
-        .header-port {
-                display: none;
-        }
-
-        .header-link {
-                display: none;
-        }
-
-        .title h1 {
-                text-align: center;
-                font-size: 36px;
-        }
-
-        div.section-web {
-                display: none;
-        }
-
-        .about-page-icons {
-                display: none;
-        }    
-        .team-list {
-                flex: 0 0 calc(33.33% - 12px);
-        }
 }
 
 
