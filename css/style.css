@@ -565,7 +565,6 @@ div.section-web ul.images {
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* text-align: center; */
         
 }
 
@@ -613,6 +612,17 @@ div.section-web ul.images {
         border-radius: 50%;
         margin-right: 12px;
         margin-left: 10px;
+}
+
+.team-list {
+        flex: 0 0 calc(50% - 24px);
+        margin-bottom: 24px;
+}
+
+.team-icons {
+        display: flex;
+        justify-content: center;
+        gap: 8px;
 }
 
 /* CUSTOER-CSS */
@@ -764,7 +774,7 @@ div.section-web ul.images {
         padding-top: 2px;
 }
 
-@media screen and (max-width: 428px) {
+@media (max-width: 428px) {
         .container {
                 width: 100%;
                 padding-left: 5px;
@@ -787,10 +797,6 @@ div.section-web ul.images {
                 text-align: center;
                 font-size: 36px;
         }
-        .about-description, .team-list {
-                flex-basis: calc(100 / 4 - 10px);
-                align-self: stretch;
-        }
 
         div.section-web {
                 display: none;
@@ -799,8 +805,8 @@ div.section-web ul.images {
         .about-page-icons {
                 display: none;
         }    
-        div.section-team ul.team {
-                justify-content: flex-start;
+        .team-list {
+                flex: 0 0 calc(33.33% - 12px);
         }
 }
 
@@ -811,9 +817,13 @@ div.section-web ul.images {
                 padding-left: 10px;
                 padding-right: 10px;
         }
+
+        .team-list {
+                flex: 0 0 calc(25% - 24px);
+        }
 }
 
-@media (min-width: 1440px) {
+@media (max-width: 1440px) {
         .container {
                 width: 100%;
         }
