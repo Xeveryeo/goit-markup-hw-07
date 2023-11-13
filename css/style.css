@@ -3,6 +3,8 @@
         margin: 0 auto;
         padding-left: 15px;
         padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
 }
 
 body {
@@ -124,7 +126,7 @@ ul.links li a {
         rgba(46, 47, 66, 0.70)), 
         url(../images/people-office-1.jpg);
         background-repeat: no-repeat;
-        width: 1440px;
+        width: auto;
         height: 600px;
         margin-top: -100px;
         padding-top: 0;
@@ -147,9 +149,9 @@ h1 {
         border-radius: 5px;
         cursor: pointer;
         border: none;
-        margin-left: 636px;
-        margin-right: 635px;
-        margin-bottom: 188px;
+        margin-left: auto;
+        margin-right: auto;
+        /* margin-bottom: 188px; */
         padding: 16px 32px;
         display: flex;
         justify-content: center;
@@ -502,10 +504,11 @@ h1 {
         flex: column;
         flex-wrap: wrap;
         align-items: center;
+        justify-content: center;
         width: 100%;
         margin-top: 120px;
-        margin-left: 156px;
-        margin-right: 156px;
+        margin-left: auto;
+        margin-right: auto;
         gap: 24px;
 }
 
@@ -520,7 +523,15 @@ h1 {
         width: 264px;
 }
 
-
+.about-page-icons {
+        border-radius: 4px;
+        background: var(--CLOUD, #F4F4FD);
+        text-align: center;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        width: auto;
+        box-sizing: border-box;
+}
 
 /* WHAT-ARE-WE-DOING-CSS */
 
@@ -530,7 +541,7 @@ div.section-web h2 {
         margin-bottom: 72px;
 }
 
-div.section-web ul.images {
+.images {
         list-style: none;
         display: flex;
         flex-wrap: wrap;
@@ -541,16 +552,7 @@ div.section-web ul.images {
         margin-left: 156px;
         margin-right: 156px;
         margin-bottom: 120px;
-}
-
-.about-page-icons {
-        border-radius: 4px;
-        background: var(--CLOUD, #F4F4FD);
-        text-align: center;
-        padding-top: 24px;
-        padding-bottom: 24px;
-        width: 100%;
-        box-sizing: border-box;
+        gap: 10px;
 }
 
 /* OUR-TEAM-CSS */
@@ -780,6 +782,10 @@ div.section-web ul.images {
                 width: 100%;
                 padding-left: 5px;
                 padding-right: 5px;
+        }
+
+        .about-list {
+                flex-basis: calc(100% / 4 - 24px)
         }
 }
 
