@@ -811,7 +811,7 @@ div.section-web ul.images {
 }
 
 
-@media (min-width: 423px) and (max-width: 726px) {
+@media (min-width: 726px) {
         .container {
                 width: 100%;
                 padding-left: 10px;
@@ -823,7 +823,7 @@ div.section-web ul.images {
         }
 }
 
-@media (max-width: 1440px) {
+@media (min-width: 1440px) {
         .container {
                 width: 100%;
         }
