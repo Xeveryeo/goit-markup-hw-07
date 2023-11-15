@@ -711,6 +711,7 @@ div.section-web h2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 50px 0px 50px;
 }
 
 .section-customer h2 {
@@ -791,9 +792,6 @@ div.section-web h2 {
     font-family: "Roboto", sans-serif;
 }
 
-.footer-icons {
-}
-
 .footer-icon {
     fill: var(--CLOUD, #f4f4fd);
     background-color: var(--IRIS, #4d5ae5);
@@ -806,12 +804,9 @@ div.section-web h2 {
     margin-left: 10px;
 }
 
-.subscribe {
-    /* display: flex; */
-}
-
-.subscribe-form {
-}
+/* .footer-socials { 
+    margin-right: 0;
+} */
 
 .subscribe-text {
     width: 264px;
@@ -850,7 +845,7 @@ div.section-web h2 {
         width: 428px;
     }
 
-    .about-description { 
+    .about-description {
         align-self: stretch;
         text-align: center;
     }
@@ -869,17 +864,20 @@ div.section-web h2 {
         line-height: 24px;
         width: 100%;
     }
+
 }
 
 @media (max-width: 428px) {
-    .about-page-icons { 
+    .about-page-icons {
         display: none;
-    }   
+    }
+
     .socials-p {
         text-align: center;
     }
+
     .social-media {
-         text-align: center;
+        text-align: center;
     }
 
     .footer-logos {
@@ -928,6 +926,7 @@ div.section-web h2 {
     .team-list {
         flex-basis: calc(100% / 2 - 30px);
     }
+
     .customer-list li {
         flex-basis: calc(100% / 3 - 30px);
     }
@@ -940,18 +939,14 @@ div.section-web h2 {
     .section-web {
         display: none;
     }
-        
+
     .footer-inner {
         margin-left: 108px;
-    }
-        
-    .footer-socials {
-        margin-right: 120px;
     }
 
     .subscribe-text {
         background: var(--NAVY-BLUE, #2E2F42);
-    }
+    }   
 }
 
 @media (max-width: 768px) {
@@ -963,7 +958,11 @@ div.section-web h2 {
         flex-basis: calc(100% / 2 - 30px);
         padding: 0;
         justify-content: flex-start;
-    }   
+    }
+
+    .footer-socials {
+        margin-right: 120px;
+    }
 }
 
 
