@@ -856,6 +856,10 @@ div.section-web h2 {
         line-height: 24px;
         width: 100%;
     }
+
+    /* .subscribe-text:focus {
+        background: transparent;
+    } */
 }
 
 @media (max-width: 428px) {
