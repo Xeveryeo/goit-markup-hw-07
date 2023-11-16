@@ -944,6 +944,10 @@ div.section-web h2 {
         margin-left: 108px;
     }
 
+    .footer-socials {
+        margin-right: 120px;
+    }
+    
     .subscribe-text {
         background: var(--NAVY-BLUE, #2E2F42);
     }   
@@ -958,10 +962,6 @@ div.section-web h2 {
         flex-basis: calc(100% / 2 - 30px);
         padding: 0;
         justify-content: flex-start;
-    }
-
-    .footer-socials {
-        margin-right: 120px;
     }
 }
 
