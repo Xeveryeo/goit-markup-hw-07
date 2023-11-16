@@ -893,7 +893,8 @@ div.section-web h2 {
     }
 
     .port-marketing-lists {
-        justify-content: space-around;
+        /* width: fit-content; */
+        padding-left: 25px;
     }
 
     .portfolio-buttons {
