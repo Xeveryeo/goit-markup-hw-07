@@ -983,6 +983,7 @@ div.section-web h2 {
     .port-marketing-lists {
         flex-basis: calc(100% / 2 - 30px);
         gap: 8px;
+        justify-content: flex-start;
     }
 }
 
