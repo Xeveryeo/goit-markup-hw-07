@@ -887,7 +887,7 @@ div.section-web h2 {
 
     .footer-socials {
         text-align: center;
-        margin-right: 0;
+        /* margin-right: 0; */
     }
 
     .subscribe {
@@ -960,18 +960,16 @@ div.section-web h2 {
         display: none;
     }
 
-    .footer-inner {
-        margin-left: 0px;
-    }
-
-    .footer-socials {
-        justify-content: center;
-        align-items: center;
-        
-    }
-
     .customer-list { 
         flex: 0 0 calc(70% - 10px);
+    }
+
+    .footer-inner {
+        margin-left: 108px;
+    }
+
+     .footer-socials {
+        margin-right: 120px;
     }
 
     .team {
@@ -1019,11 +1017,11 @@ div.section-web h2 {
         flex-basis: calc(100% / 6 - 30px);
     }
 
-    .footer-logos {
+    /* .footer-logos {
         display: flex;
         align-items: center;
         justify-content: center;
-    }
+    } */
 }
 
 @media (max-width: 1200px) {
