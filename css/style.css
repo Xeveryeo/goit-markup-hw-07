@@ -965,7 +965,9 @@ div.section-web h2 {
     }
 
     .footer-socials {
-        /* margin-right: 240px; */
+        justify-content: center;
+        align-items: center;
+        
     }
 
     .customer-list { 
@@ -993,9 +995,9 @@ div.section-web h2 {
         display: none;
     }
 
-    /* .footer-socials {
+    .footer-inner {
         justify-content: center;
-    } */
+    }
 }
 
 
