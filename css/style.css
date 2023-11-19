@@ -908,6 +908,7 @@ div.section-web h2 {
 
     .portfolio-buttons {
         justify-content: flex-start;
+        margin-left: 15px;
     }
 
     .about-description {
@@ -969,9 +970,12 @@ div.section-web h2 {
         margin-right: 108px;
     }
 
-
     .team {
         justify-content: center;
+    }
+
+    .ninth-market-list {
+        justify-content: flex-start;
     }
 }
 
@@ -990,10 +994,6 @@ div.section-web h2 {
     .section-web {
         display: none;
     }
-
-    /* .footer-inner {
-        justify-content: center;
-    } */
 }
 
 
@@ -1018,6 +1018,10 @@ div.section-web h2 {
     .footer-inner {
         margin-left: 0;
     }
+
+    .port-marketing-lists {
+        justify-content: center;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -1041,11 +1045,6 @@ div.section-web h2 {
     .footer-inner {
         justify-content: center;
     }
-
-
-    /* .port-marketing-lists {
-        justify-content: flex-start;
-    } */
 
     .subscribe-text {
         width: -webkit-fill-available;
