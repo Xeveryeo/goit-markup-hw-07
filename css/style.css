@@ -973,10 +973,6 @@ div.section-web h2 {
     .team {
         justify-content: center;
     }
-
-    .ninth-market-list {
-        justify-content: flex-start;
-    }
 }
 
 @media (max-width: 768px) {
