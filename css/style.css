@@ -795,8 +795,8 @@ div.section-web h2 {
     display: inline-flex;
     padding: 12px;
     border-radius: 50%;
-    margin-right: 0px;
-    margin-left: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .subscribe-text {
@@ -966,11 +966,9 @@ div.section-web h2 {
 
     .footer-inner {
         margin-left: 108px;
+        margin-right: 108px;
     }
 
-     .footer-socials {
-        margin-right: 120px;
-    }
 
     .team {
         justify-content: center;
@@ -993,9 +991,9 @@ div.section-web h2 {
         display: none;
     }
 
-    .footer-inner {
+    /* .footer-inner {
         justify-content: center;
-    }
+    } */
 }
 
 
@@ -1017,11 +1015,9 @@ div.section-web h2 {
         flex-basis: calc(100% / 6 - 30px);
     }
 
-    /* .footer-logos {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    } */
+    .footer-inner {
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -1045,6 +1041,11 @@ div.section-web h2 {
     .footer-inner {
         justify-content: center;
     }
+
+
+    /* .port-marketing-lists {
+        justify-content: flex-start;
+    } */
 
     .subscribe-text {
         width: -webkit-fill-available;
