@@ -820,7 +820,7 @@ div.section-web h2 {
     justify-content: center;
     align-items: center;
     border-radius: 4px;
-    height: 39px;
+    height: 38px;
     background: var(--IRIS, #4d5ae5);
     padding: 0px 24px;
     font-size: 16px;
@@ -835,7 +835,7 @@ div.section-web h2 {
 
 .subscribe-button-p {
     display: block;
-    padding-top: 2px;
+    /* padding-top: 2px; */
 }
 
 @media (min-width: 428px) {
