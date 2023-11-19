@@ -973,6 +973,10 @@ div.section-web h2 {
     .team {
         justify-content: center;
     }
+
+    .port-marketing-lists {
+        /* justify-content: stretch; */
+    }
 }
 
 @media (max-width: 768px) {
