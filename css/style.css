@@ -975,7 +975,8 @@ div.section-web h2 {
     }
 
     .port-marketing-lists {
-        /* justify-content: stretch; */
+        justify-content: flex-start;
+        /* margin-left: 100px; */
     }
 }
 
@@ -993,6 +994,11 @@ div.section-web h2 {
 
     .section-web {
         display: none;
+    }
+
+    .port-marketing-lists {
+        justify-content: flex-start;
+        margin-left: 10px;
     }
 }
 
@@ -1032,6 +1038,10 @@ div.section-web h2 {
     .about-page-icons {
         display: none;
     }
+
+    /* .port-marketing-lists {
+        justify-content: center;
+    } */
 }
 
 @media (max-width: 767px) {
@@ -1093,5 +1103,9 @@ div.section-web h2 {
 
     .subscribe-text {
         align-self: stretch;
+    }
+
+    .port-marketing-lists {
+        justify-content: center;
     }
 }
