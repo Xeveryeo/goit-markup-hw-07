@@ -162,8 +162,7 @@ ul.links li a {
     margin-bottom: 40px;
 }
 
-.mobile-nav-folio-link:hover,
-.mobile-nav-folio-link:focus {
+.mobile-nav-folio-link:hover {
     color: var(--OCEAN, #404BBF);
 }
 
@@ -188,8 +187,7 @@ ul.links li a {
     text-decoration: none;
 }
 
-.mobile-nav-contact-link:hover,
-.mobile-nav-contact-link:focus {
+.mobile-nav-contact-link:hover {
     color: var(--IRIS, #4D5AE5);
     font-size: 36px;
     max-width: 100%;
