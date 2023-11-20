@@ -123,7 +123,7 @@ ul.links li a {
 .mobile-menu-container {
     position: relative;
     height: 100%;
-    padding: 40px;
+    /* padding: 40px; */
 }
 
 .mobile-navbar {
@@ -154,6 +154,10 @@ ul.links li a {
     text-transform: capitalize;
 }
 
+.mobile-nav-folios {
+    margin-top: 80px;
+}
+
 .mobile-nav-folio-list {
     margin-bottom: 40px;
 }
@@ -178,9 +182,10 @@ ul.links li a {
     letter-spacing: 0.4px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:flex-start;
     margin-bottom: 40px;
     transition: font-size 0.3s;
+    text-decoration: none;
 }
 
 .mobile-nav-contact-link:hover,
@@ -191,14 +196,36 @@ ul.links li a {
     white-space: nowrap;
     overflow: visible;
     text-overflow: ellipsis;
+    /* text-decoration: none; */
 }
 
 .mobile-menu-socials {
     text-decoration: none;
     list-style-type: none;
     margin-top: 48px;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
 }
 
+
+.mobile-nav-social-media {
+    justify-content: center;
+}
+
+.mobile-nav-icon {
+    fill: var(--CLOUD, #f4f4fd);
+    background-color: var(--IRIS, #4d5ae5);
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    padding: 12px;
+    border-radius: 50%;
+    text-decoration: none;
+    margin-left: 0;
+    margin-right: 50px;
+}
+    
 /* TITLE-CSS */
 
 .title {
